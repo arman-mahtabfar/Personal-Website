@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=indie+flower&display=swap);
+
+.text {
+	text-align:center;
+	margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+:root {
+  --orange: #d65c00;
+  --blue: #023465;
+	--background-color: #fff0f0;
+	--text: 'Indie Flower', Monospace;
+}
+
+
+html {
+	background-color: var(--background-color);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+body {
+	font-family: var(--text);
+	padding: 10;
+  margin: auto;
+}
+
+
+#typewriter {
+	text-align:center; font-size: 35px; margin-bottom: 45px;
+	height:10vh;
+}
+
+
+@media screen and (min-width: 100px) {
+	
+	#image {
+		margin:auto;
+		max-width: 18%;
+		vertical-align: middle;
+		text-align:center;
+		margin-top: 10vh;
+		margin-left:41%;
+		margin-right:41%;
+		margin-bottom:5vh;
+		
+	}
+
+	#intro {
+		margin-left: 5vh;
+    	margin-right: 5vh;
+		font-size: 6vh;
+		font-weight: 700;
+		line-height: 8vh;
+		text-align:center;
+		margin-left: 5vh;
+    	margin-right: 5vh;
+	}
+
+	#linkicons {
+	margin-bottom: 8vh;
+	text-align:center;
+	}
+	.icon {
+		vertical-align: bottom;
+		font-size: 10vh;
+		color: var(--orange);
+		margin-right: 2vw;
+		margin-left: 2vw;
+	}
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html >
+<html>
+  <head>
+    <title>Arman Mahtabfar</title>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="res/img/outline.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <body>
+    <img id="image" src="res/img/trans copy.png">
+    <div id = "typewriter">
+    </div>
+    <div id="linkicons">
+    
+      <a href="https://github.com/arman-mahtabfar"><i class="icon fab fa-github-alt"></i></a>
+      <a href="https://drive.google.com/open?id=1T6Alv_s63cJBY0igW-PpVzIXmq19lNrK"><i class="icon far fa-file-pdf"></i></a>
+      <a href="https://www.gmail.com"><i class="icon far fa-envelope"></i></a>
+      <a href="https://www.linkedin.com"><i class="icon fab fa-linkedin-in"></i></a>
+    
+    
+    </div>
+    <h1 class = "text">Eager to learn, excited to make an impact.</h1>
+  </body>
+  <script>
+    var app = document.getElementById('typewriter');
+
+    var typewriter = new Typewriter(app, {
+      loop: false
+    });
+
+    typewriter.typeString("Hi, I'm Arman.")
+      .pauseFor(1000)
+      .typeString(" I'm a student.")
+      .pauseFor(1000)
+      .deleteChars(8)
+      .typeString("programmer.")
+      .pauseFor(1000)
+      .deleteChars(11)
+      .typeString('food lover.')
+      .pauseFor(1000)
+      .deleteChars(11)
+      .typeString('music fan.')
+      .pauseFor(1000)
+      .deleteChars(17)
+      .start()
+  </script>
+</html>
